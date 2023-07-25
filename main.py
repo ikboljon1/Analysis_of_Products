@@ -6,7 +6,6 @@ with open('data.json', 'r', encoding='utf-8') as file:
 
 df = pd.DataFrame(data)
 
-# Etkazib berish narxini lug'atga qo'shish
 delivery_costs = {
     'Мордор': 1000,
     'хутор близ Диканьки': 500,
